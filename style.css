@@ -6,6 +6,9 @@ body{
     height: 200px;
     width: 200px;
 }
+#navbarNav{
+    color: black;
+}
 #workHistory{
     align-content: center;
 }
