@@ -1,0 +1,43 @@
+#Rodney{
+    height: 200px;
+    width: 200px;
+}
+#workHistory{
+    align-content: center;
+}
+#educationCertifications{
+    align-content: center;
+}
+#interests{
+    align-content: center;
+}
+#jumbotron{
+
+}
+body{
+    background: gray;
+}
+#crystalCollectorsPic{
+height: 650px;
+width: 600px;
+size: fit
+}
+#gifTasticPic{
+    height: 650px;
+    width: 600px;
+    size: fit
+    }
+    #ccngPic{
+        height: 650px;
+        width: 600px;
+        size: fit
+        }
+#controlPrev{
+    color: black;
+    background-color: black;
+}
+
+#controlNext{
+    color: black;
+    background-color: black;
+}
