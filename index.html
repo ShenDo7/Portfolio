@@ -21,6 +21,9 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="style.css">
+  <!-- JS -->
+  ≤
+  <link rel="stylesheet" href="./app.js">
 
   <title>Portfolio</title>
 </head>
@@ -37,12 +40,11 @@
           <a class="nav-link" href="./index.html">About Me <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./projects.html">Projects</a>
+          <a class="nav-link" href="./projects.html">Projects <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-
-          <a class="nav-link" href="./contactme.html">Contact Me</a>
-        </li>
+          <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#contactMe">Contact
+            Me</button>
         </li>
       </ul>
     </div>
@@ -50,7 +52,8 @@
   <div class="jumbotron jumbotron-fluid">
     <div class="container" id="jumbotron">
       <img src="images/Rodney pic copy.jpg" alt="" id="Rodney">
-      <p class="lead">"The goal of life is to make your heartbeat match the beat of the universe, to match your nature with Nature".</p>
+      <p class="lead">"The goal of life is to make your heartbeat match the beat of the universe, to match your nature
+        with Nature".</p>
       <p>Joseph Campbell</p>
     </div>
   </div>
@@ -76,6 +79,28 @@
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur labore eaque minima, nisi omnis maxime eum
           soluta numquam nesciunt, consectetur similique sint, facere harum sequi deleniti accusamus at modi tenetur.
         </p>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal" id="contactMe" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Rodney James</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Thank you for reviewing my portfolio, I am looking forward to connecting with you.</p>
+            <p>Email: rodney@blockchainbeginners.org</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary"
+              href="http://linkedin.com/in/rodney-james-0a35a0104">LinkedIn</button>
+          </div>
+        </div>
       </div>
     </div>
 </body>

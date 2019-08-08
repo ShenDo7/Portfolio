@@ -1,3 +1,7 @@
+body{
+    background-color: gray;
+}
+
 #Rodney{
     height: 200px;
     width: 200px;
@@ -8,30 +12,32 @@
 #educationCertifications{
     align-content: center;
 }
+
 #interests{
     align-content: center;
 }
-#jumbotron{
+
+#carouselExampleCaptions{
+color: black;
+background-color: black;
 
 }
-body{
-    background: gray;
-}
+
 #crystalCollectorsPic{
-height: 650px;
-width: 600px;
-size: fit
+height: 710px;
+width: 1600px;
+
 }
 #gifTasticPic{
-    height: 650px;
-    width: 600px;
-    size: fit
+    height: 710px;
+    width: 1600px;
+    
     }
     #ccngPic{
-        height: 650px;
-        width: 600px;
-        size: fit
-        }
+        height: 710px;
+        width: 1600px;
+    
+    }
 #controlPrev{
     color: black;
     background-color: black;
