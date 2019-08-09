@@ -2,6 +2,22 @@ body{
     background-color: gray;
 }
 
+#navbar{
+    color: black;
+
+}
+
+
+#btnLinkedIn{
+    color: black;
+    background-color: black;
+}
+
+
+#btnClose{
+    background-color: black;
+}
+
 #Rodney{
     height: 200px;
     width: 200px;
@@ -23,22 +39,29 @@ body{
 #carouselExampleCaptions{
 color: black;
 background-color: black;
-
+object-fit: fill;
+display: flex;
 }
 
 #crystalCollectorsPic{
 height: 710px;
 width: 1600px;
+object-fit: fill;
+display: flex;
 
 }
 #gifTasticPic{
     height: 710px;
     width: 1600px;
+    object-fit: fill;
+    display: flex;
     
     }
     #ccngPic{
         height: 710px;
         width: 1600px;
+        object-fit: fill;
+        display: flex;
     
     }
 #controlPrev{

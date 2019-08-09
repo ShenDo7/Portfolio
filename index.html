@@ -20,14 +20,15 @@
     crossorigin="anonymous"></script>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./style.css">
   <!-- JS -->
   <link rel="stylesheet" href="./app.js">
 
   <title>Portfolio</title>
 </head>
+
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id=navbar>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -38,7 +39,7 @@
           <a class="nav-link" href="./index.html"><b>About Me</b><span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./projects.html"><b>Projects</b></a>
+          <a class="nav-link" href="./projects.html"><b>Projects</b><span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#contactMe">Contact
@@ -94,9 +95,9 @@
             <p>Email: rodney@blockchainbeginners.org</p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary"
-              href="http://linkedin.com/in/rodney-james-0a35a0104">LinkedIn</button>
+            <button type="button" class="btn btn-secondary" id="btnClose" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary" id="btnLinkedIn">
+            <a href="http://linkedin.com/in/rodney-james-0a35a0104">LinkedIn</a></button>
           </div>
         </div>
       </div>
