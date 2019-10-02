@@ -9,6 +9,7 @@ body {
 #jumbotron {
   padding-bottom: 5px;
   padding-top: 5px;
+  border-block-color: yellow;
 }
 
 #navbar {
