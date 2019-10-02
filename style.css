@@ -27,6 +27,11 @@ body {
   color: black;
 }
 
+#navAboutMe {
+  color: black;
+  font-weight: bold;
+}
+
 #navProject {
   color: black;
   font-weight: bold;
