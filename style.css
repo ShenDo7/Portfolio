@@ -1,75 +1,72 @@
-body{
-    background-color: gray;
+body {
+  background-color: gray;
 }
 
-#navbar{
-    color: black;
-
+#navbar {
+  color: black;
 }
 
-
-#btnLinkedIn{
-    color: black;
-    background-color: black;
+#btnLinkedIn {
+  color: black;
+  background-color: black;
 }
 
-
-#btnClose{
-    background-color: black;
+#btnClose {
+  background-color: black;
 }
 
-#Rodney{
-    height: 200px;
-    width: 200px;
+#Rodney {
+  height: 200px;
+  width: 200px;
 }
-#navbarNav{
-    color: black;
+#navbarNav {
+  color: black;
 }
-#workHistory{
-    align-content: center;
+#workHistory {
+  align-content: center;
 }
-#educationCertifications{
-    align-content: center;
-}
-
-#interests{
-    align-content: center;
+#educationCertifications {
+  align-content: center;
 }
 
-#carouselExampleCaptions{
-color: black;
-background-color: black;
-object-fit: fill;
-display: flex;
+#interests {
+  align-content: center;
 }
 
-#crystalCollectorsPic{
-height: 100%;
-width: 100%;
-object-fit: fill;
-display: flex;
-
-}
-#gifTasticPic{
-    height: 100%;
-    width: 100%;
-    object-fit: fill;
-    display: flex;
-    
-    }
-    #ccngPic{
-        height: 100%;
-        width: 100%;
-        object-fit: fill;
-        display: flex;
-    
-    }
-#controlPrev{
-    color: black;
-    background-color: black;
+#carouselExampleCaptions {
+  color: black;
+  background-color: black;
+  object-fit: fill;
+  display: flex;
 }
 
-#controlNext{
-    color: black;
-    background-color: black;
+#crystalCollectorsPic {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+  display: flex;
+}
+#gifTasticPic {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+  display: flex;
+}
+#ccngPic {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+  display: flex;
+}
+#controlPrev {
+  color: black;
+  background-color: black;
+}
+
+#controlNext {
+  color: black;
+  background-color: black;
+}
+#jumbotron {
+  margin: 5px;
 }
