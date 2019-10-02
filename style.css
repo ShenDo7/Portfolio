@@ -26,6 +26,11 @@ body {
 #navbarNav {
   color: black;
 }
+
+#navProject {
+  color: black;
+}
+
 #workHistory {
   align-content: center;
 }
